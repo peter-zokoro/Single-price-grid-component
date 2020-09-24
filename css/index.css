@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 15px);
+  /* box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.top {
+  width: 40rem;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.join {
+  font-size: 28px;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 30px;
+}
+
+.guarantee {
+  font-size: 18px;
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.msg {
+  color: hsl(218, 22%, 67%);
+  margin-bottom: 20px;
+}
+
+.bottom {
+  display: flex;
+  width: 40rem;
+  height: 230px;
+  color: #ece4e4;
+}
+
+.one {
+  width: 20rem;
+  background-color: hsl(179, 62%, 43%);
+  height: 100%;
+  padding: 30px;
+  padding-right: 40px;
+}
+
+.month {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.price {
+  margin-bottom: 10px;
+}
+
+.dough {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.itoku {
+  color: hsl(203, 40%, 82%);
+  font-size: 14px;
+}
+
+.persuade {
+  margin-bottom: 10px;
+}
+
+.signup {
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px 0 0 0;
+  color: #ece4e4;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.signup:hover {
+  background-color: darkblue;
+  transition: all 0.3s;
+}
+
+.two {
+  width: 20rem;
+  background-color: hsl(179, 45%, 54%);
+  height: 100%;
+  padding: 30px;
+  padding-right: 8px;
+}
+
+.why {
+  margin: 0 0 15px 0;
+  font-weight: 700;
+}
+
+.expo {
+  font-size: 14px;
+  line-height: 20px;
+  color: hsl(166, 19%, 82%);
+}
+
+footer {
+  height: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: calc(100vh - 10px);
+    margin: 40px 20px 0 20px;
+  }
+  .top {
+    width: 99%;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    height: 15rem;
+    border-radius: 5px;
+  }
+  .join {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .guarantee {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    height: auto;
+    border-radius: 0 0 5px 5px;
+  }
+  .one {
+    width: 100%;
+    height: 15rem;
+    padding: 20px 30px;
+  }
+  .dough {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .persuade {
+    margin-bottom: 0;
+  }
+
+  .signup {
+    padding: 12px;
+    border: none;
+    margin: 20px 0 10px 0;
+    font-size: 16px;
+  }
+
+  .two {
+    width: 100%;
+    height: 15rem;
+    padding: 20px 30px;
+  }
+
+  .why {
+    margin: 0 0 10px 0;
+  }
+
+  .expo {
+    font-size: 12px;
+    line-height: 20px;
+    color: hsl(166, 19%, 82%);
+  }
+
+  footer {
+    position: bottom;
+    height: 10px;
+  }
+}
